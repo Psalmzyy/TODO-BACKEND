@@ -2,7 +2,7 @@ const express = require('express');
 const cors = require('cors');// cross origin resource sharing
 const app = express();
 
-const allowedOrigins = ['https://Psalmzyy.github.io'];
+const allowedOrigins = ['https://psalmzyy.github.io'];
 
 app.use(cors({
   origin: function (origin, callback) {
